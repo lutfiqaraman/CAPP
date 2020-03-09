@@ -13,10 +13,11 @@ namespace CAPP
             ClassA a = new ClassA();
             ClassB b = new ClassB();
             ClassC c = new ClassC();
+            ClassD d = new ClassD();
 
-            a.Print();
-            b.Print();
-            c.Print();
+            d.PloyPrint(a);
+            d.PloyPrint(b);
+            d.PloyPrint(c);
 
             Console.ReadKey();
         }

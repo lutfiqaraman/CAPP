@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CAPP
 {
-    public class ClassA
+    public class ClassD
     {
-        public virtual void Print()
+        public void PloyPrint(ClassA a)
         {
-            Console.WriteLine("I am class A");
+            a.Print();
         }
     }
 }
