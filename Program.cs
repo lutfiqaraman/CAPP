@@ -10,13 +10,13 @@ namespace CAPP
     {
         static void Main(string[] args)
         {
-            ClassA aa = new ClassA();
-            ClassB bb = new ClassB();
-            ClassC cc = new ClassC();
+            ClassA a = new ClassA();
+            ClassB b = new ClassB();
+            ClassC c = new ClassC();
 
-            aa.Print();
-            bb.Print();
-            cc.Print();
+            a.Print();
+            b.Print();
+            c.Print();
 
             Console.ReadKey();
         }
